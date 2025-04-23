@@ -5,10 +5,14 @@ const cookieParser = require("cookie-parser");
 const { errorHandler, errorConverter } = require("./middlewares/error");
 const { status } = require("http-status");
 const CustomError = require("./utils/customError");
+const morgan = require("./config/morgan");
 
 app.use(cors());
 app.use(express.json());
 app.use(cookieParser());
+//logger middleware
+app.use(morgan.successHandler);
+app.use(morgan.errorHandler);
 // Import routes
 
 //error handler middleware
