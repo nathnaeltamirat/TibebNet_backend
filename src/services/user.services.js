@@ -11,6 +11,15 @@ exports.createUser = async (body) => {
     username,
     email,
     password,
+    role,
   });
+  return user;
+};
+
+exports.getUserById = async (id) => {
+  const user = await User.findById(id);
+  if (!user) {
+    throw new CustomError(status.NOT_FOUND, "User not found");
+  }
   return user;
 };

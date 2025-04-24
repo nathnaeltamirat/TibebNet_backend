@@ -11,4 +11,7 @@ module.exports = {
     dbConnection: envVars.DB_CONNECTION,
     nodeEnv: envVars.NODE_ENV,
   },
+  jwt:{
+    jwtSecret:envVars.JWT_SECRET
+  }
 };
