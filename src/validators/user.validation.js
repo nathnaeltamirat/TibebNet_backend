@@ -7,3 +7,9 @@ exports.createUserSchema = {
     password: joi.string().required().trim().custom(password),
   }),
 };
+exports.loginUserSchema = {
+  body: joi.object().keys({
+    email: joi.string().required().email().trim().lowercase(),
+    password: joi.string().required().trim(),
+  }),
+};
