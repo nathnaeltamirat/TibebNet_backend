@@ -16,6 +16,14 @@ exports.createUser = async (body) => {
   return user;
 };
 
+exports.loginUser = async (email, password) => {
+  const user = await User.findOne({ email });
+  if (!user || !(await user.isPasswordMatch(password))) {
+    throw new CustomError(status.UNAUTHORIZED, "Invalid email or password");
+  }
+    return user;
+};
+
 exports.getUserById = async (id) => {
   const user = await User.findById(id);
   if (!user) {

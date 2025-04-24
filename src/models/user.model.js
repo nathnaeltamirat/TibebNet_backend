@@ -70,6 +70,12 @@ userSchema.statics.isEmailTaken = async function (email) {
   return !!user;
 };
 
+userSchema.methods.isPasswordMatch = async function (password) {
+  const user = this;
+  const isMatch = await bcrypt.compare(password, user.password);
+  return isMatch;
+};
+
 userSchema.plugin(toJson);
 
 const User = mongoose.model("User", userSchema);
