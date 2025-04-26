@@ -5,6 +5,8 @@ exports.createUserSchema = {
     username: joi.string().required().min(3).max(50).trim(),
     email: joi.string().required().email().trim().lowercase(),
     password: joi.string().required().trim().custom(password),
+    confirmPassword: joi.string().required().trim().valid(joi.ref("password")),
+    role: joi.string().valid("user", "admin").default("user"),
   }),
 };
 exports.loginUserSchema = {

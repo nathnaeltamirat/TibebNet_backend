@@ -10,8 +10,11 @@ module.exports = {
     port: envVars.PORT,
     dbConnection: envVars.DB_CONNECTION,
     nodeEnv: envVars.NODE_ENV,
+    googleClientId: envVars.GOOGLE_CLIENT_ID,
+    googleClientSecret: envVars.GOOGLE_CLIENT_SECRET,
+    googleCallbackUrl: envVars.GOOGLE_CALLBACK_URL,
   },
-  jwt:{
-    jwtSecret:envVars.JWT_SECRET
-  }
+  jwt: {
+    jwtSecret: envVars.JWT_SECRET,
+  },
 };

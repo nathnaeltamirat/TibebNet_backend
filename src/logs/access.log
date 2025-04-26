@@ -1,0 +1,12 @@
+ POST /api/auth/signup 500 14.396 ms PostmanRuntime/7.43.3 Sat, 26 Apr 2025 07:56:42 GMT - error-message - 
+ POST /api/auth/signup 400 31.189 ms PostmanRuntime/7.43.3 Sat, 26 Apr 2025 07:57:39 GMT - error-message "body.confirmPassword" is not allowed 
+ POST /api/auth/signup 500 35.520 ms PostmanRuntime/7.43.3 Sat, 26 Apr 2025 07:58:20 GMT - error-message role is not defined 
+ POST /api/auth/signup 500 56.335 ms PostmanRuntime/7.43.3 Sat, 26 Apr 2025 08:01:34 GMT - error-message password does not match 
+ POST /api/auth/signup 500 67.647 ms PostmanRuntime/7.43.3 Sat, 26 Apr 2025 08:06:37 GMT - error-message password does not match 
+ POST /api/auth/signup 500 54.049 ms PostmanRuntime/7.43.3 Sat, 26 Apr 2025 08:08:05 GMT - error-message password does not match 
+ POST /api/auth/signup 500 56.916 ms PostmanRuntime/7.43.3 Sat, 26 Apr 2025 08:11:25 GMT - error-message Internal Server Error 
+ POST /api/auth/signup 500 12.799 ms PostmanRuntime/7.43.3 Sat, 26 Apr 2025 08:11:33 GMT - error-message Internal Server Error 
+ POST /api/auth/signup 500 64.403 ms PostmanRuntime/7.43.3 Sat, 26 Apr 2025 08:12:33 GMT - error-message password does not match 
+ POST /api/auth/signup 500 14.051 ms PostmanRuntime/7.43.3 Sat, 26 Apr 2025 08:12:37 GMT - error-message password does not match 
+ POST /api/auth/signup 201 201.383 ms PostmanRuntime/7.43.3 Sat, 26 Apr 2025 08:16:25 GMT
+ POST /api/auth/login 200 169.455 ms PostmanRuntime/7.43.3 Sat, 26 Apr 2025 08:17:20 GMT

@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 const validator = require("validator");
 const bcrypt = require("bcrypt");
 const toJson = require("@meanie/mongoose-to-json");
+const CustomError = require("../utils/customError");
 
 const userSchema = new mongoose.Schema(
   {
@@ -49,6 +50,23 @@ const userSchema = new mongoose.Schema(
       enum: ["user", "admin"],
       default: "user",
     },
+    profileImageUrl: {
+      type: String,
+      default: "",
+    },
+    point: {
+      type: Number,
+      default: 0,
+    },
+    joinedCommunityIds: [
+      { type: mongoose.Schema.Types.ObjectId, ref: "Community" },
+    ],
+    likedPostIds: [
+      {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Post",
+      },
+    ],
   },
   { timestamps: true }
 );
@@ -56,9 +74,6 @@ const userSchema = new mongoose.Schema(
 userSchema.pre("save", async function (next) {
   const user = this;
   if (user.isModified("password")) {
-    if (user.password !== user.confirmPassword) {
-      throw new Error("password does not match");
-    }
     user.password = await bcrypt.hash(user.password, 10);
     user.confirmPassword = undefined;
   }
