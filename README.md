@@ -1,0 +1,7 @@
+PORT=3000
+DB_CONNECTION=mongo_uri
+NODE_ENV=development
+JWT_SECRET=mySuperSecretKey
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CALLBACK_URL=http://localhost:3000/auth/google/callback
+GOOGLE_CLIENT_SECRET=your_google_client_secret
