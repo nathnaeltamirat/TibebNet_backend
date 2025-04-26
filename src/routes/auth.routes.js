@@ -15,5 +15,17 @@ router.post(
   authController.login
 );
 
+// Redirect to Google for authentication
+router.get(
+  "/google",
+  passport.authenticate("google", { scope: ["profile", "email"] })
+);
+
+//Google callback Url
+router.get(
+  "/google/callback",
+  passport.authenticate("google", { session: false }),
+  authController.googleLoginCallback
+);
 
 module.exports = router;
