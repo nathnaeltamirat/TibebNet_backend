@@ -3,6 +3,7 @@ const router = express.Router();
 const authController = require("../controllers/auth.controllers");
 const validate = require("../middlewares/validation");
 const { userValidation } = require("../validators");
+const passport = require("passport");
 
 router.post(
   "/signup",
@@ -27,5 +28,10 @@ router.get(
   passport.authenticate("google", { session: false }),
   authController.googleLoginCallback
 );
+router.use((err, req, res, next) => {
+  console.error(err);
+  res.status(500).json({ status: 'error', message: err.message || 'Internal server error' });
+});
+
 
 module.exports = router;

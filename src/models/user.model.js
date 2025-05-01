@@ -35,21 +35,7 @@ const userSchema = new mongoose.Schema(
         }
       },
     },
-    confirmPassword: {
-      type: String,
-      trim: true,
-      validate: {
-        validator: function (value) {
-          return this.password === value;
-        },
-        message: "password does not match",
-      },
-    },
-    role: {
-      type: String,
-      enum: ["user", "admin"],
-      default: "user",
-    },
+
     profileImageUrl: {
       type: String,
       default: "",
@@ -58,9 +44,11 @@ const userSchema = new mongoose.Schema(
       type: Number,
       default: 0,
     },
-    joinedCommunityIds: [
-      { type: mongoose.Schema.Types.ObjectId, ref: "Community" },
-    ],
+    googleId: {
+      type: String,
+      default: null,
+    },
+    
     likedPostIds: [
       {
         type: mongoose.Schema.Types.ObjectId,
@@ -75,7 +63,6 @@ userSchema.pre("save", async function (next) {
   const user = this;
   if (user.isModified("password")) {
     user.password = await bcrypt.hash(user.password, 10);
-    user.confirmPassword = undefined;
   }
   next();
 });

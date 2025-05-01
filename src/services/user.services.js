@@ -3,24 +3,21 @@ const CustomError = require("../utils/customError");
 const { status } = require("http-status");
 
 exports.createUser = async (body) => {
-  const { username, email, password, confirmPassword, role = "user" } = body;
+  const { username, email, password } = body;
+
   if (await User.isEmailTaken(email)) {
     throw new CustomError(status.BAD_REQUEST, "Email already taken");
   }
-  if (password !== confirmPassword) {
-    throw new CustomError(
-      status.BAD_REQUEST,
-      "Password and confirm password do not match"
-    );
+
+
+  try {
+    const user = await User.create({ username, email, password });
+    return user;
+  } catch (error) {
+    throw new CustomError(status.INTERNAL_SERVER_ERROR, "Error creating user");
   }
-  const user = await User.create({
-    username,
-    email,
-    password,
-    role,
-  });
-  return user;
 };
+
 
 exports.loginUser = async (email, password) => {
   const user = await User.findOne({ email });

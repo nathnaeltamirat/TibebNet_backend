@@ -9,12 +9,15 @@ const validate = (schema) => (req, res, next) => {
     }
     return obj;
   }, {});
-  const { value, error } = joi.compile(schema).validate(object);
+  
+  const { error } = joi.compile(schema).validate(object, { abortEarly: false });
+  
   if (error) {
     const errors = error.details.map((detail) => detail.message).join(", ");
-    next(new CustomError(400, errors));
+    return next(new CustomError(400, errors)); // ✅ return here
   }
-  return next();
+
+  return next(); // ✅ only called if no error
 };
 
 module.exports = validate;
