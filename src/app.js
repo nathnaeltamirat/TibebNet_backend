@@ -7,6 +7,8 @@ const { status } = require("http-status");
 const CustomError = require("./utils/customError");
 const morgan = require("./config/morgan");
 const authRouter = require("./routes/auth.routes");
+const communityRouter = require("./routes/community.routes");
+
 const {
   googleStrategy,
   serializeUserFunction,
@@ -20,6 +22,7 @@ app.use(cookieParser());
 //logger middleware
 app.use(morgan.successHandler);
 app.use(morgan.errorHandler);
+app.use("/api/communities", communityRouter);
 
 //passport middleware
 
