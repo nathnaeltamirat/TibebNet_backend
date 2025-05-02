@@ -1,6 +1,6 @@
 const CustomError = require("../utils/customError");
 const { tokenService, userService } = require("../services");
-const { status } = require("http-status");
+const {status}  = require("http-status");
 
 const authenticate = async (req, res, next) => {
   const token = req.headers.authorization?.split(" ")[1];

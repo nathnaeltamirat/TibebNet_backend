@@ -1,11 +1,13 @@
 const Community = require("../models/community.model");
 const CustomError = require("../utils/customError");
-const { status } = require("http-status");
+const {status} = require("http-status");
+
+
 
 
 exports.createCommunity = async (req, res, next) => {
   try {
-    const { name, description } = req.body;
+    const { name, description,image} = req.body;
     const existing = await Community.findOne({ name });
     if (existing) {
       throw new CustomError(status.BAD_REQUEST, "Community already exists");
@@ -14,7 +16,8 @@ exports.createCommunity = async (req, res, next) => {
     const community = await Community.create({
       name,
       description,
-      createdBy: req.user._id, 
+      image,
+      createdBy: req.user._id,
     });
 
     res.status(status.CREATED).json({ community });
@@ -26,7 +29,7 @@ exports.createCommunity = async (req, res, next) => {
 // Get all communities
 exports.getCommunities = async (req, res, next) => {
   try {
-    const communities = await Community.find().populate("createdBy", "username");
+    const communities = await Community.find({});
     res.status(status.OK).json({ communities });
   } catch (err) {
     next(err);
@@ -45,4 +48,18 @@ exports.getCommunityById = async (req, res, next) => {
   } catch (err) {
     next(err);
   }
+  
 };
+exports.deleteCommunity = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const community = await Community.findOneAndDelete({ id });
+    if (!community) {
+      throw new CustomError(status.NOT_FOUND, "Community not found");
+    }
+    res.status(status.OK).json({ message: "Community deleted successfully" });
+  } catch (err) {
+    next(err);
+  }
+}
+

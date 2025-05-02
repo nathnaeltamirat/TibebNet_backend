@@ -42,3 +42,64 @@
  POST /api/auth/login 200 595.489 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Thu, 01 May 2025 12:44:13 GMT
 =======
 >>>>>>> origin/register
+ POST /api/communitie/ - - ms PostmanRuntime/7.43.3 Fri, 02 May 2025 00:41:14 GMT
+ POST /api/communities/ 500 882.092 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 00:41:17 GMT - error-message Invalid status code: undefined. Status code must be an integer. 
+ POST /api/communities/ 500 563.678 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 00:43:28 GMT - error-message Community already exists 
+ POST /api/communities/ 500 1011.100 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 00:45:47 GMT - error-message Invalid status code: undefined. Status code must be an integer. 
+ POST /api/communities/ 500 486.724 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 00:45:54 GMT - error-message Community already exists 
+ POST /api/communities/ 400 553.516 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 01:00:54 GMT - error-message Community already exists 
+ POST /api/communities/ 201 808.101 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 01:02:57 GMT
+ POST /api/communities/AASTU%20CGI - - ms PostmanRuntime/7.43.3 Fri, 02 May 2025 01:06:53 GMT
+ DELETE /api/communities/AASTU%20CGI 200 536.757 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 01:06:54 GMT
+ DELETE /api/communities/GDG%On%Campus 500 1.575 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 01:07:21 GMT - error-message Failed to decode param 'GDG%On%Campus' 
+ DELETE /api/communities/GDG%20On%20Campus 200 517.177 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 01:07:58 GMT
+ DELETE /api/communities/AASTU%SEA 500 1.726 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 01:08:21 GMT - error-message Failed to decode param 'AASTU%SEA' 
+ DELETE /api/communities/AASTU20%SEA 500 1.747 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 01:08:26 GMT - error-message Failed to decode param 'AASTU20%SEA' 
+ DELETE /api/communities/AASTU%20SEA 200 484.043 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 01:08:31 GMT
+ DELETE /api/communities/AASTU%20SEA 500 367.304 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 01:14:34 GMT - error-message Cast to Number failed for value "AASTU SEA" (type string) at path "id" for model "Community" 
+ POST /api/communities/AASTU%20SEA - - ms PostmanRuntime/7.43.3 Fri, 02 May 2025 01:14:53 GMT
+ POST /api/communities/ 201 1085.003 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 01:14:55 GMT
+ POST /api/communities/ 401 3.761 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 01:43:58 GMT - error-message - 
+ POST /api/auth/login/ 200 449.154 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 01:45:51 GMT
+ POST /api/community - - ms Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 01:57:27 GMT
+ POST /api/community - - ms Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 01:57:27 GMT
+ POST /api/community - - ms Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 01:57:27 GMT
+ POST /api/community - - ms Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 01:57:27 GMT
+ POST /api/community - - ms Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 01:57:27 GMT
+ POST /api/community - - ms Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 01:57:27 GMT
+ POST /api/communities 201 1545.801 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 02:00:36 GMT
+ POST /api/communities 400 936.179 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 02:00:37 GMT - error-message Community already exists 
+ POST /api/communities 400 1042.167 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 02:00:37 GMT - error-message Community already exists 
+ POST /api/communities 400 1135.650 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 02:00:37 GMT - error-message Community already exists 
+ POST /api/communities 201 1256.518 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 02:15:02 GMT
+ POST /api/communities 401 1.149 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 02:23:01 GMT - error-message - 
+ POST /api/auth/login/ 200 619.855 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 02:23:27 GMT
+ POST /api/auth/login/ 200 625.604 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 02:23:32 GMT
+ POST /api/communities 201 1253.536 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 02:24:24 GMT
+ GET /api/communities/ 500 379.760 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 02:26:19 GMT - error-message Cannot populate path `createdBy` because it is not in your schema. Set the `strictPopulate` option to false to override. 
+ GET /api/communities/ 500 16.887 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 02:27:38 GMT - error-message Community.findall is not a function 
+ GET /api/communities/ 500 9.450 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 02:28:34 GMT - error-message Community.finda is not a function 
+ GET /api/communities/ 200 450.371 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 02:28:51 GMT
+ GET /api/communities/ 200 325.333 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 02:43:21 GMT
+ GET /api/communities/ 304 377.111 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 02:48:39 GMT
+ GET /api/communities/ 304 401.191 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 02:48:46 GMT
+ GET /api/communities/ 304 405.313 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 02:50:12 GMT
+ GET /api/communities/ 200 257.332 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 02:50:21 GMT
+ DELETE /api/communities/3 200 697.355 ms PostmanRuntime/7.43.3 Fri, 02 May 2025 02:53:32 GMT
+ GET /api/communities/ 200 259.185 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 02:53:45 GMT
+ GET /api/communities/ 304 335.570 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 03:06:58 GMT
+ GET /api/communities/ 304 366.617 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 03:12:47 GMT
+ GET /api/communities/ 200 257.587 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 03:20:52 GMT
+ GET /api/communities/ 304 411.804 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 03:20:59 GMT
+ GET /api/communities/ 304 340.327 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 03:21:20 GMT
+ GET /api/communities/ 304 229.819 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 03:22:18 GMT
+ GET /api/communities/ 304 384.981 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 03:27:44 GMT
+ GET /api/communities/ 304 303.284 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 03:28:05 GMT
+ GET /api/communities/ 304 267.527 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 03:29:00 GMT
+ GET /api/communities/ 304 298.011 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 03:29:54 GMT
+ GET /api/communities/ 304 293.153 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 03:30:13 GMT
+ GET /api/communities/ 304 267.671 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 05:00:20 GMT
+ GET /api/communities/ 304 279.075 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 05:01:29 GMT
+ GET /api/communities/ 304 270.689 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 05:02:54 GMT
+ GET /api/communities/ 304 242.213 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 05:03:13 GMT
+ GET /api/communities/ 304 292.156 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 05:04:41 GMT
