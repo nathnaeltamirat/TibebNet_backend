@@ -9,7 +9,7 @@ const morgan = require("./config/morgan");
 const authRouter = require("./routes/auth.routes");
 
 const communityRouter = require("./routes/community.routes");
-
+const messageRouter = require("./routes/message.routes");
 
 const {
   googleStrategy,
@@ -25,6 +25,7 @@ app.use(cookieParser());
 app.use(morgan.successHandler);
 app.use(morgan.errorHandler);
 app.use("/api/communities", communityRouter);
+app.use("/api/messages", messageRouter);
 
 //passport middleware
 
