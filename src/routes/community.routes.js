@@ -1,16 +1,15 @@
 const express = require("express");
 const router = express.Router();
 const communityController = require("../controllers/community.controller");
-const authenticateUser = require("../middlewares/auth");
+const { protect } = require("../middlewares/auth");  
 
 
-router.post("/", authenticateUser, communityController.createCommunity);
+router.post("/create", protect, communityController.createCommunity);
 
-router.get("/", communityController.getCommunities);
 
-router.get("/:id", communityController.getCommunityById);
+router.post("/add-member", protect, communityController.addMember);
 
-router.delete("/:id", authenticateUser, communityController.deleteCommunity);
 
+router.post("/remove-member", protect, communityController.removeMember);
 
 module.exports = router;

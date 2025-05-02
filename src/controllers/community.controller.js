@@ -1,71 +1,70 @@
 const Community = require("../models/community.model");
+const { status } = require("http-status");
 const CustomError = require("../utils/customError");
-const {status} = require("http-status");
-
-
-
 
 exports.createCommunity = async (req, res, next) => {
-  try {
-    const { name, description,image} = req.body;
-    const existing = await Community.findOne({ name });
-    if (existing) {
-      throw new CustomError(status.BAD_REQUEST, "Community already exists");
-    }
+  const { name, description } = req.body;
 
-    const community = await Community.create({
-      name,
-      description,
-      image,
-      createdBy: req.user._id,
-    });
-
-    res.status(status.CREATED).json({ community });
-  } catch (err) {
-    next(err);
+  
+  const existingCommunity = await Community.findOne({ name });
+  if (existingCommunity) {
+    return next(new CustomError(status.BAD_REQUEST, "Community already exists"));
   }
+  const community = new Community({
+    name,
+    description,
+  });
+
+  await community.save();
+
+  res.status(status.CREATED).json({
+    message: "Community created successfully",
+    data: community,
+  });
 };
 
-// Get all communities
-exports.getCommunities = async (req, res, next) => {
-  try {
-    const communities = await Community.find({});
-    res.status(status.OK).json({ communities });
-  } catch (err) {
-    next(err);
+exports.addMember = async (req, res, next) => {
+  const { communityId, userId } = req.body;
+
+  const community = await Community.findById(communityId);
+  if (!community) {
+    return next(new CustomError(status.NOT_FOUND, "Community not found"));
   }
+
+ 
+  if (community.members.includes(userId)) {
+    return next(new CustomError(status.BAD_REQUEST, "User is already a member"));
+  }
+
+  community.members.push(userId);
+  await community.save();
+
+  res.status(status.OK).json({
+    message: "Member added successfully",
+    data: community,
+  });
 };
 
-// Get single community by ID
-// Example: GET /api/communities/1
-exports.getCommunityById = async (req, res, next) => {
-  try {
-    const { id } = req.params;
-    const numericId = parseInt(id);
+exports.removeMember = async (req, res, next) => {
+  const { communityId, userId } = req.body;
 
-    if (isNaN(numericId)) {
-      throw new CustomError(400, "Invalid Community ID. Must be a number.");
-    }
-
-    const community = await Community.findOne({ id: numericId });
-    if (!community) {
-      throw new CustomError(404, "Community not found");
-    }
-    res.status(200).json({ community });
-  } catch (err) {
-    next(err);
+  
+  const community = await Community.findById(communityId);
+  if (!community) {
+    return next(new CustomError(status.NOT_FOUND, "Community not found"));
   }
+
+
+  const index = community.members.indexOf(userId);
+  if (index === -1) {
+    return next(new CustomError(status.BAD_REQUEST, "User not a member"));
+  }
+
+  community.members.splice(index, 1);
+  await community.save();
+
+  res.status(status.OK).json({
+    message: "Member removed successfully",
+    data: community,
+  });
 };
-exports.deleteCommunity = async (req, res, next) => {
-  try {
-    const { id } = req.params;
-    const community = await Community.findOneAndDelete({ id });
-    if (!community) {
-      throw new CustomError(status.NOT_FOUND, "Community not found");
-    }
-    res.status(status.OK).json({ message: "Community deleted successfully" });
-  } catch (err) {
-    next(err);
-  }
-}
-

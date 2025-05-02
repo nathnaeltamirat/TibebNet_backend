@@ -1,18 +1,11 @@
-const app = require("./app");
-const mongoose = require("mongoose");
-const http = require("http");
-const httpServer = http.createServer(app);
-const config = require("./config/config");
-const logger = require("./config/logger");
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000;
 
-mongoose
-  .connect(config.env.dbConnection)
-  .then(() => {
-    logger.info("MongoDB connected");
-  })
-  .catch((err) => {
-    logger.error("MongoDB connection error:", err.message);
-  });
-const server = httpServer.listen(config.env.port, () => {
-  logger.info(`Server is running on port ${config.env.port}`);
+app.get('/', (req, res) => {
+  res.send('Hello, World!');
+});
+
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
 });
