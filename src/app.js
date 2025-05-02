@@ -37,6 +37,7 @@ passport.serializeUser(serializeUserFunction);
 passport.deserializeUser(deserializeUserFunction);
 
 app.use("/api/auth", authRouter);
+app.use("/api/posts", postRouter);
 
 //error handler middleware
 app.use((req, res, next) => {
