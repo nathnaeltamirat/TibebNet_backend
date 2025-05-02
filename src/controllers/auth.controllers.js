@@ -33,6 +33,25 @@ exports.login = catchAsync(async (req, res) => {
     },
   });
 });
+exports.getUser = catchAsync(async (req, res) => {
+  const user = await userService.getUserById(req.params.id);
+  res.status(status.OK).json({
+    status: "success",
+    data: {
+      user,
+    },
+  });
+});
+exports.editUser = catchAsync(async (req, res) => {
+  const { id } = req.params;
+  const user = await userService.updateUser(id, req.body);
+  res.status(status.OK).json({
+    status: "success",
+    data: {
+      user,
+    },
+  });
+});
 exports.googleLoginCallback = catchAsync(async (req, res) => {
   const user = req.user;
   const token = await tokenService.generateToken(user._id);

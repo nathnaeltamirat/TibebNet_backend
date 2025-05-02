@@ -49,12 +49,10 @@ const userSchema = new mongoose.Schema(
       default: null,
     },
     
-    likedPostIds: [
-      {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Post",
-      },
-    ],
+    about:{
+      type: String,
+      default: null,
+    }
   },
   { timestamps: true }
 );

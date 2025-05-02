@@ -10,7 +10,7 @@ const authRouter = require("./routes/auth.routes");
 
 const communityRouter = require("./routes/community.routes");
 const messageRouter = require("./routes/message.routes");
-
+const postRouter = require("./routes/post.routes");
 const {
   googleStrategy,
   serializeUserFunction,

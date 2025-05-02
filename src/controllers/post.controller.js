@@ -1,70 +1,93 @@
 const Post = require('../models/post.model');
-const ApiError = require('../utils/ApiError');
-const catchAsync = require('../utils/catchAsync');
+const User = require('../models/user.model');
 
-const createPost = catchAsync(async (req, res) => {
-    const { content, image } = req.body;
+
+exports.createPost = async (req, res) => {
+    const { content, image, points,id,category} = req.body;
+
     const post = await Post.create({
         content,
         image,
-        author: req.user.id
+        author: id,
+        category,
     });
+
+    // Increment points if provided
+    if (points && Number(points) > 0) {
+        await User.findByIdAndUpdate(
+            id,
+            { $inc: { point: Number(points) } },
+            { new: true }
+        );
+    }
 
     await post.populate('author', 'name email profilePicture');
-    
+
     res.status(201).json({
         status: 'success',
-        data: post
+        data: post,
     });
-});
+};
 
-const getPosts = catchAsync(async (req, res) => {
-    const page = parseInt(req.query.page) || 1;
-    const limit = parseInt(req.query.limit) || 10;
-    const skip = (page - 1) * limit;
-
-    const posts = await Post.find()
+exports.getPosts = async (req, res) => {
+    try {
+      const posts = await Post.find()
         .sort({ createdAt: -1 })
-        .skip(skip)
-        .limit(limit)
         .populate('author', 'name email profilePicture')
         .populate('likes');
-
-    const total = await Post.countDocuments();
-
-    res.status(200).json({
+  
+      const total = await Post.countDocuments();
+  
+      return res.status(200).json({
         status: 'success',
         results: posts.length,
         total,
-        data: posts
-    });
-});
+        data: posts,
+      });
+    } catch (err) {
+      console.error(err);
+      return res.status(500).json({
+        status: 'error',
+        message: 'Server error fetching posts',
+      });
+    }
+  };
+  
 
-const getPost = catchAsync(async (req, res) => {
+exports.getPost = async (req, res) => {
     const post = await Post.findById(req.params.id)
         .populate('author', 'name email profilePicture')
         .populate('likes');
 
     if (!post) {
-        throw new ApiError(404, 'Post not found');
+        return res.status(404).json({
+            status: 'fail',
+            message: 'Post not found',
+        });
     }
 
-    res.status(200).json({
+    return res.status(200).json({
         status: 'success',
-        data: post
+        data: post,
     });
-});
+};
 
-const updatePost = catchAsync(async (req, res) => {
+exports.updatePost = async (req, res) => {
     const { content, image } = req.body;
     const post = await Post.findById(req.params.id);
 
     if (!post) {
-        throw new ApiError(404, 'Post not found');
+        return res.status(404).json({
+            status: 'fail',
+            message: 'Post not found',
+        });
     }
 
     if (post.author.toString() !== req.user.id) {
-        throw new ApiError(403, 'You can only update your own posts');
+        return res.status(403).json({
+            status: 'fail',
+            message: 'You can only update your own posts',
+        });
     }
 
     post.content = content || post.content;
@@ -77,33 +100,25 @@ const updatePost = catchAsync(async (req, res) => {
 
     res.status(200).json({
         status: 'success',
-        data: post
+        data: post,
     });
-});
+};
 
-const deletePost = catchAsync(async (req, res) => {
+exports.deletePost = async (req, res) => {
     const post = await Post.findById(req.params.id);
 
     if (!post) {
-        throw new ApiError(404, 'Post not found');
-    }
-
-    if (post.author.toString() !== req.user.id) {
-        throw new ApiError(403, 'You can only delete your own posts');
+        return res.status(404).json({
+            status: 'fail',
+            message: 'Post not found',
+        });
     }
 
     await post.deleteOne();
 
-    res.status(204).json({
+    return res.status(204).json({
         status: 'success',
-        data: null
+        data: null,
     });
-});
+};
 
-module.exports = {
-    createPost,
-    getPosts,
-    getPost,
-    updatePost,
-    deletePost
-}; 

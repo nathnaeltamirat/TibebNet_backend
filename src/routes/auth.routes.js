@@ -32,6 +32,10 @@ router.use((err, req, res, next) => {
   console.error(err);
   res.status(500).json({ status: 'error', message: err.message || 'Internal server error' });
 });
-
+router.get("/:id", authController.getUser);
+router.patch(
+  "/:id",
+  authController.editUser
+);  
 
 module.exports = router;

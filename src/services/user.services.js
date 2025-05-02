@@ -34,6 +34,17 @@ exports.getUserById = async (id) => {
   }
   return user;
 };
+exports.updateUser = async (id, body) => {
+  const user = await User.findByIdAndUpdate(id, body, {
+    new: true,
+    runValidators: true,
+  });
+  if (!user) {
+    throw new CustomError(status.NOT_FOUND, "User not found");
+  }
+  return user;
+}
+
 
 exports.findOrCreateGoogleUser = async (profile) => {
   const email = profile.emails[0].value;

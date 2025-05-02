@@ -6,14 +6,22 @@ const likeController = require('../controllers/like.controller');
 const router = express.Router();
 
 // Post routes
-router.post('/', auth, postController.createPost);
-router.get('/', postController.getPosts);
-router.get('/:id', postController.getPost);
-router.patch('/:id', auth, postController.updatePost);
-router.delete('/:id', auth, postController.deletePost);
-
+router
+  .route('/')
+  .get(postController.getPost)
+  .post(postController.createPost);
+router
+  .route('/one/:id')
+  .get(postController.getPost);
+router
+   .route('/del/:id')
+  .delete(postController.deletePost);
+router
+    .route('/all')
+    .get(postController.getPosts)
+// router.get('/posts', postController.getPostsByUserId);
 // Like routes
-router.post('/:postId/like', auth, likeController.toggleLike);
-router.get('/:postId/likes', likeController.getLikes);
+// router.post('/:postId/like', auth, likeController.toggleLike);
+// router.get('/:postId/likes', likeController.getLikes);
 
-module.exports = router; 
+module.exports = router;

@@ -1,16 +1,18 @@
 const Like = require('../models/like.model');
 const Post = require('../models/post.model');
-const ApiError = require('../utils/ApiError');
-const catchAsync = require('../utils/catchAsync');
 
-const toggleLike = catchAsync(async (req, res) => {
+// Toggle Like (like/unlike a post)
+exports.toggleLike = async (req, res) => {
     const { postId } = req.params;
     const userId = req.user.id;
 
     // Check if post exists
     const post = await Post.findById(postId);
     if (!post) {
-        throw new ApiError(404, 'Post not found');
+        return res.status(404).json({
+            status: 'fail',
+            message: 'Post not found'
+        });
     }
 
     // Check if user has already liked the post
@@ -42,9 +44,10 @@ const toggleLike = catchAsync(async (req, res) => {
             data: newLike
         });
     }
-});
+};
 
-const getLikes = catchAsync(async (req, res) => {
+// Get Likes for a specific post
+exports.getLikes = async (req, res) => {
     const { postId } = req.params;
 
     const likes = await Like.find({ post: postId })
@@ -55,9 +58,4 @@ const getLikes = catchAsync(async (req, res) => {
         results: likes.length,
         data: likes
     });
-});
-
-module.exports = {
-    toggleLike,
-    getLikes
-}; 
+};
