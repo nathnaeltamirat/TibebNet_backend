@@ -7,6 +7,7 @@ const { status } = require("http-status");
 const CustomError = require("./utils/customError");
 const morgan = require("./config/morgan");
 const authRouter = require("./routes/auth.routes");
+const postRouter = require("./routes/post.routes");
 const {
   googleStrategy,
   serializeUserFunction,
@@ -31,6 +32,7 @@ passport.serializeUser(serializeUserFunction);
 passport.deserializeUser(deserializeUserFunction);
 
 app.use("/api/auth", authRouter);
+app.use("/api/posts", postRouter);
 
 //error handler middleware
 app.use((req, res, next) => {
