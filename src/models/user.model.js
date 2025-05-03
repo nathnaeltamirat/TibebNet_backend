@@ -52,7 +52,14 @@ const userSchema = new mongoose.Schema(
     about:{
       type: String,
       default: null,
-    }
+    },
+    chatHistory: [
+      {
+        message: { type: String, required: true },
+        sender: { type: String, enum: ['user', 'ai'], required: true },
+        timestamp: { type: Date, default: Date.now }
+      }
+    ]
   },
   { timestamps: true }
 );

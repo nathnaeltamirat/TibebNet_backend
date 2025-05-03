@@ -2261,3 +2261,271 @@
  GET /api/auth/6813685a341d7d34f0da6c35 304 250.351 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 20:13:27 GMT
  GET /api/auth/6813685a341d7d34f0da6c35 304 262.672 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 20:13:28 GMT
  GET /api/posts/all 304 815.376 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 20:13:29 GMT
+ POST /api/auth/login 200 752.022 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:38:32 GMT
+ GET /api/communities/ 200 285.955 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:38:33 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 200 289.645 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:38:33 GMT
+ GET /api/posts/all 200 707.223 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:38:33 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 175.826 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:38:33 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 180.933 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:38:33 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 171.578 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:38:34 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 209.215 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:38:34 GMT
+ GET /api/communities/ 304 284.335 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:38:42 GMT
+ GET /api/communities/2 200 178.932 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:38:47 GMT
+ GET /api/messages/2 200 327.523 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:38:47 GMT
+ GET /api/messages/2 304 185.943 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:38:52 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 329.540 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:38:56 GMT
+ GET /api/posts/all 304 1159.417 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:38:57 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 193.517 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:38:57 GMT
+ GET /api/messages/2 304 167.719 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:38:57 GMT
+ GET /api/messages/2 304 225.562 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:02 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 201.811 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:03 GMT
+ GET /api/posts/all 304 845.873 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:04 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 175.476 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:07 GMT
+ GET /api/messages/2 304 175.160 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:07 GMT
+ GET /api/posts/all 304 774.195 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:08 GMT
+ GET /api/messages/2 304 245.681 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:12 GMT
+ PATCH /api/auth/6813685a341d7d34f0da6c35 200 315.014 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:16 GMT
+ GET /api/messages/2 304 196.473 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:17 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 200 293.912 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:19 GMT
+ GET /api/posts/all 304 781.464 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:20 GMT
+ GET /api/messages/2 304 197.918 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:22 GMT
+ GET /api/messages/2 304 218.866 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:27 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 239.318 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:31 GMT
+ GET /api/communities/ 304 271.946 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:31 GMT
+ GET /api/posts/all 304 765.111 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:31 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 265.859 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:32 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 230.606 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:32 GMT
+ GET /api/messages/2 304 244.022 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:32 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 302.191 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:32 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 302.206 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:33 GMT
+ GET /api/messages/2 304 197.485 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:37 GMT
+ GET /api/messages/2 304 327.722 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:42 GMT
+ GET /api/messages/2 304 175.507 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:47 GMT
+ GET /api/messages/2 304 242.913 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:52 GMT
+ GET /api/messages/2 304 381.193 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Fri, 02 May 2025 21:39:58 GMT
+ POST /api/auth/login 200 1722.707 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:25:08 GMT
+ POST /api/auth/login 200 1940.215 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:25:08 GMT
+ POST /api/auth/login 200 370.822 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:25:08 GMT
+ GET /api/communities/ 200 263.347 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:25:09 GMT
+ GET /api/communities/ 304 230.117 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:25:09 GMT
+ GET /api/posts/all 200 773.224 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:25:09 GMT
+ GET /api/posts/all 304 701.640 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:25:10 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 200 1594.057 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:25:10 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 245.255 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:25:10 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 246.546 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:25:10 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 271.077 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:25:11 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 231.740 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:25:11 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 233.254 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:25:11 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 225.399 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:25:11 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 225.558 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:25:12 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 243.397 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:25:12 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 233.382 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:25:12 GMT
+ POST /api/posts 201 1026.513 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:25:51 GMT
+ POST /api/auth/login 200 413.770 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:26:42 GMT
+ GET /api/communities/ 304 238.980 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:26:42 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 200 235.666 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:26:42 GMT
+ GET /api/posts/all 200 719.089 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:26:42 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 233.475 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:26:43 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 235.960 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:26:43 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 243.564 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:26:43 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 241.003 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:26:43 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 235.882 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:26:44 GMT
+ POST /api/posts 201 585.663 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:27:04 GMT
+ GET /api/communities/ 304 275.450 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:27:49 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 284.479 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:27:49 GMT
+ GET /api/posts/all 200 748.701 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:27:49 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 271.298 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:27:49 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 248.767 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:27:50 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 240.308 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:27:50 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 248.368 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:27:50 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 276.815 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:27:51 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 228.139 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:27:51 GMT
+ POST /api/posts 201 940.038 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:28:31 GMT
+ GET /api/communities/ 304 266.598 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:28:41 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 200 269.164 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:28:41 GMT
+ GET /api/posts/all 200 753.706 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:28:42 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 230.479 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:28:42 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 269.421 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:28:42 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 251.182 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:28:43 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 228.182 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:28:43 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 258.202 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:28:43 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 231.737 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:28:43 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 230.186 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 04:28:44 GMT
+ POST /api/auth/login 200 591.921 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:13:26 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 200 531.693 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:13:27 GMT
+ GET /api/communities/ 200 572.056 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:13:27 GMT
+ GET /api/posts/all 200 1138.627 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:13:28 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 231.353 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:13:28 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 237.909 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:13:28 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 231.539 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:13:29 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 306.695 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:13:29 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 263.011 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:13:29 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 266.251 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:13:30 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 292.627 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:13:30 GMT
+ GET /api/chat/history 500 1.914 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:13:33 GMT - error-message - 
+ POST /api/chat/send 500 1.665 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:13:50 GMT - error-message - 
+ POST /api/chat/send 500 0.913 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:14:00 GMT - error-message - 
+ POST /api/chat/send 500 1.104 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:14:00 GMT - error-message - 
+ POST /api/chat/send 500 4.268 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:14:00 GMT - error-message - 
+ POST /api/chat/send 500 2.204 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:14:01 GMT - error-message - 
+ POST /api/chat/send 500 0.699 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:14:01 GMT - error-message - 
+ POST /api/auth/login 500 276.080 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:15:59 GMT - error-message - 
+ POST /api/auth/login 200 482.941 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:16:05 GMT
+ GET /api/communities/ 304 256.788 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:16:06 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 270.021 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:16:06 GMT
+ GET /api/posts/all 304 774.223 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:16:06 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 236.134 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:16:07 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 273.581 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:16:07 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 296.098 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:16:07 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 244.540 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:16:07 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 268.841 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:16:08 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 230.380 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:16:08 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 237.271 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:16:09 GMT
+ GET /api/chat/history 500 0.808 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Sat, 03 May 2025 05:16:16 GMT - error-message - 
+ POST /api/auth/login 200 457.193 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:18:36 GMT
+ GET /api/communities/ 304 327.163 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:18:37 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 333.089 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:18:37 GMT
+ GET /api/posts/all 304 975.456 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:18:38 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 393.611 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:18:38 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 295.889 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:18:39 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 251.483 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:18:39 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 378.071 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:18:39 GMT
+ GET /api/chat/history 500 1.615 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:18:39 GMT - error-message - 
+ GET /api/auth/6813685a341d7d34f0da6c35 304 255.386 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:18:40 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 314.950 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:18:40 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 287.613 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:18:40 GMT
+ POST /api/chat/send 500 0.720 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:18:45 GMT - error-message - 
+ POST /api/chat/send 500 1.981 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:18:47 GMT - error-message - 
+ POST /api/chat/send 500 1.722 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:18:47 GMT - error-message - 
+ POST /api/auth/login 200 562.940 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:25:46 GMT
+ GET /api/communities/ 304 232.127 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:25:47 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 238.517 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:25:47 GMT
+ GET /api/posts/all 304 812.289 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:25:47 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 346.820 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:25:48 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 233.970 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:25:48 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 284.614 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:25:48 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 234.126 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:25:49 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 239.580 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:25:49 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 295.896 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:25:49 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 297.054 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:25:49 GMT
+ GET /api/chat/history 500 0.902 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:25:50 GMT - error-message - 
+ POST /api/chat/send 500 1.650 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:25:56 GMT - error-message - 
+ POST /api/chat/send 500 0.959 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:25:57 GMT - error-message - 
+ POST /api/chat/send 500 0.930 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:25:58 GMT - error-message - 
+ POST /api/chat/send 500 0.670 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:25:58 GMT - error-message - 
+ POST /api/chat/send 500 0.689 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:25:58 GMT - error-message - 
+ POST /api/chat/send 500 0.618 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:25:59 GMT - error-message - 
+ POST /api/chat/send 500 0.752 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:25:59 GMT - error-message - 
+ POST /api/chat/send 500 0.993 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:25:59 GMT - error-message - 
+ POST /api/chat/send 500 0.744 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:25:59 GMT - error-message - 
+ POST /api/chat/send 500 0.725 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:25:59 GMT - error-message - 
+ POST /api/chat/send 500 0.796 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:26:00 GMT - error-message - 
+ POST /api/chat/send 500 6.065 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:26:00 GMT - error-message - 
+ POST /api/chat/send 500 4.282 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:26:00 GMT - error-message - 
+ POST /api/chat/send 500 2.669 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:26:00 GMT - error-message - 
+ POST /api/chat/send 500 0.876 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:26:00 GMT - error-message - 
+ POST /api/chat/send 500 3.349 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:26:01 GMT - error-message - 
+ POST /api/chat/send 500 0.729 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:26:01 GMT - error-message - 
+ POST /api/chat/send 500 0.757 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:26:01 GMT - error-message - 
+ POST /api/chat/send 500 0.903 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:26:01 GMT - error-message - 
+ POST /api/chat/send 500 0.665 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:26:01 GMT - error-message - 
+ POST /api/chat/send 500 0.673 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:26:02 GMT - error-message - 
+ POST /api/auth/login 200 646.892 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:35:40 GMT
+ GET /api/communities/ 200 401.745 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:35:40 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 200 416.178 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:35:41 GMT
+ GET /api/posts/all 200 1072.754 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:35:41 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 247.409 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:35:41 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 243.572 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:35:42 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 248.318 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:35:42 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 264.421 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:35:42 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 246.172 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:35:42 GMT
+ GET /api/chat/history/6813685a341d7d34f0da6c35 200 354.097 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:35:43 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 349.082 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:35:43 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 277.050 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:35:43 GMT
+ POST /api/chat/send/6813685a341d7d34f0da6c35 200 6467.904 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:35:57 GMT
+ GET /api/chat/history/6813685a341d7d34f0da6c35 200 262.280 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:35:57 GMT
+ POST /api/chat/send/6813685a341d7d34f0da6c35 200 67716.278 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:37:02 GMT
+ GET /api/chat/history/6813685a341d7d34f0da6c35 200 235.121 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:37:02 GMT
+ POST /api/auth/login 200 720.111 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:22 GMT
+ GET /api/communities/ 304 292.835 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:23 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 200 374.807 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:23 GMT
+ GET /api/posts/all 304 1083.679 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:24 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 364.468 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:24 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 392.022 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:25 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 391.913 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:25 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 327.290 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:25 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 365.739 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:26 GMT
+ GET /api/chat/history/6813685a341d7d34f0da6c35 500 4.825 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:26 GMT - error-message - 
+ GET /api/auth/6813685a341d7d34f0da6c35 304 286.594 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:26 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 325.003 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:26 GMT
+ POST /api/chat/send/6813685a341d7d34f0da6c35 200 672.622 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:39 GMT
+ POST /api/chat/send/6813685a341d7d34f0da6c35 200 711.356 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:39 GMT
+ POST /api/chat/send/6813685a341d7d34f0da6c35 200 668.023 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:39 GMT
+ GET /api/chat/history/6813685a341d7d34f0da6c35 500 0.957 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:39 GMT - error-message - 
+ GET /api/chat/history/6813685a341d7d34f0da6c35 500 0.612 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:39 GMT - error-message - 
+ GET /api/chat/history/6813685a341d7d34f0da6c35 500 0.747 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:39 GMT - error-message - 
+ POST /api/chat/send/6813685a341d7d34f0da6c35 200 734.292 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:40 GMT
+ POST /api/chat/send/6813685a341d7d34f0da6c35 200 619.442 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:40 GMT
+ GET /api/chat/history/6813685a341d7d34f0da6c35 500 0.522 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:40 GMT - error-message - 
+ GET /api/chat/history/6813685a341d7d34f0da6c35 500 0.797 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:40 GMT - error-message - 
+ POST /api/chat/send/6813685a341d7d34f0da6c35 200 601.300 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:40 GMT
+ GET /api/chat/history/6813685a341d7d34f0da6c35 500 0.696 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:40 GMT - error-message - 
+ GET /api/chat/history/6813685a341d7d34f0da6c35 500 0.786 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:49:57 GMT - error-message - 
+ GET /api/auth/6813685a341d7d34f0da6c35 200 269.019 ms PostmanRuntime/7.43.3 Sat, 03 May 2025 05:50:22 GMT
+ POST /api/auth/login 200 471.062 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:54:41 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 200 326.263 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:54:41 GMT
+ GET /api/communities/ 304 354.208 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:54:41 GMT
+ GET /api/posts/all 304 847.249 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:54:42 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 334.974 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:54:42 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 328.131 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:54:43 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 364.642 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:54:43 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 287.587 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:54:43 GMT
+ GET /api/chat/history/6813685a341d7d34f0da6c35 500 0.684 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:54:44 GMT - error-message - 
+ GET /api/auth/6813685a341d7d34f0da6c35 304 301.533 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:54:44 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 299.787 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:54:44 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 411.358 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:54:44 GMT
+ POST /api/chat/send/6813685a341d7d34f0da6c35 200 706.455 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:54:51 GMT
+ GET /api/chat/history/6813685a341d7d34f0da6c35 500 0.937 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:54:51 GMT - error-message - 
+ GET /api/auth/6813685a341d7d34f0da6c35 200 500.127 ms PostmanRuntime/7.43.3 Sat, 03 May 2025 05:55:02 GMT
+ POST /api/chat/send/6813685a341d7d34f0da6c35 200 778.696 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:55:35 GMT
+ GET /api/chat/history/6813685a341d7d34f0da6c35 500 3.495 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:55:35 GMT - error-message - 
+ GET /api/auth/6813685a341d7d34f0da6c35 200 250.205 ms PostmanRuntime/7.43.3 Sat, 03 May 2025 05:55:39 GMT
+ POST /api/auth/login 200 714.962 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:57:51 GMT
+ GET /api/communities/ 304 1013.763 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:57:53 GMT
+ GET /api/chat/history/6813685a341d7d34f0da6c35 500 16.749 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:57:54 GMT - error-message - 
+ GET /api/auth/6813685a341d7d34f0da6c35 200 2988.189 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:57:55 GMT
+ GET /api/posts/all 304 3266.191 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:57:55 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 286.480 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:57:55 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 261.251 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:57:56 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 255.889 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:57:56 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 364.671 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:57:56 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 339.970 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:57:57 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 259.803 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:57:57 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 300.736 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:57:57 GMT
+ POST /api/chat/send/6813685a341d7d34f0da6c35 200 568.386 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:57:59 GMT
+ GET /api/chat/history/6813685a341d7d34f0da6c35 500 0.853 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 05:57:59 GMT - error-message - 
+ POST /api/auth/login 200 557.105 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:03:00 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 200 337.496 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:03:00 GMT
+ GET /api/communities/ 304 339.053 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:03:00 GMT
+ GET /api/posts/all 304 860.927 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:03:01 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 263.647 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:03:01 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 244.600 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:03:02 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 245.505 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:03:02 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 291.483 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:03:02 GMT
+ GET /api/chat/history/6813685a341d7d34f0da6c35 500 5.475 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:03:02 GMT - error-message - 
+ GET /api/auth/6813685a341d7d34f0da6c35 304 317.740 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:03:02 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 381.088 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:03:03 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 235.307 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:03:03 GMT
+ POST /api/chat/send/6813685a341d7d34f0da6c35 200 618.139 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:03:09 GMT
+ GET /api/chat/history/6813685a341d7d34f0da6c35 500 2.023 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:03:09 GMT - error-message - 
+ GET /api/auth/6813685a341d7d34f0da6c35 200 323.476 ms PostmanRuntime/7.43.3 Sat, 03 May 2025 06:04:58 GMT
+ POST /api/auth/login 200 441.802 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:05:27 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 200 365.552 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:05:28 GMT
+ GET /api/communities/ 304 370.943 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:05:28 GMT
+ GET /api/posts/all 304 845.810 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:05:29 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 269.155 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:05:29 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 243.350 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:05:29 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 227.851 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:05:30 GMT
+ GET /api/chat/history/6813685a341d7d34f0da6c35 500 0.598 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:05:30 GMT - error-message - 
+ GET /api/auth/6813685a341d7d34f0da6c35 304 229.902 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:05:30 GMT
+ GET /api/auth/6813685a341d7d34f0da6c35 304 236.252 ms Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 Sat, 03 May 2025 06:05:30 GMT

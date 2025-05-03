@@ -11,6 +11,7 @@ const authRouter = require("./routes/auth.routes");
 const communityRouter = require("./routes/community.routes");
 const messageRouter = require("./routes/message.routes");
 const postRouter = require("./routes/post.routes");
+const AiRouter = require("./routes/ai.routes");
 const {
   googleStrategy,
   serializeUserFunction,
@@ -38,6 +39,7 @@ passport.deserializeUser(deserializeUserFunction);
 
 app.use("/api/auth", authRouter);
 app.use("/api/posts", postRouter);
+app.use("/api/chat", AiRouter);
 
 //error handler middleware
 app.use((req, res, next) => {

@@ -38,7 +38,24 @@ exports.getCommunities = async (req, res, next) => {
 
 // Get single community by ID
 // Example: GET /api/communities/1
-g
+exports.getCommunityById = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const numericId = parseInt(id);
+
+    if (isNaN(numericId)) {
+      throw new CustomError(400, "Invalid Community ID. Must be a number.");
+    }
+
+    const community = await Community.findOne({ id: numericId });
+    if (!community) {
+      throw new CustomError(404, "Community not found");
+    }
+    res.status(200).json({ community });
+  } catch (err) {
+    next(err);
+  }
+};
 exports.deleteCommunity = async (req, res, next) => {
   try {
     const { id } = req.params;
