@@ -21,34 +21,43 @@ exports.getMessagesByCommunityId = async (req, res) => {
     }
   }
 
+  const TIBEB_ID = "681663c722fe544dbe03c943"; // Fixed Tibeb ObjectId
+
   exports.createMessage = async (req, res) => {
     try {
       const { communityId } = req.params;
-      const { senderId, content } = req.body;
-      
-      console.log(`Received request: communityId: ${communityId}, senderId: ${senderId}, content: ${content}`);
+      let { senderId, content, isFromAI } = req.body;
   
-      // Validate the communityId and senderId
+      console.log(`Received request: communityId: ${communityId}, senderId: ${senderId}, content: ${content}, isFromAI: ${isFromAI}`);
+  
       if (isNaN(parseInt(communityId, 10))) {
         return res.status(400).json({ error: 'Invalid community ID' });
       }
   
-      if (!senderId || !content) {
-        return res.status(400).json({ error: 'Sender ID and message content are required' });
+      if (!content) {
+        return res.status(400).json({ error: 'Message content is required' });
       }
   
-      // Check if senderId exists in the User collection
-      const user = await User.findById(senderId);
-      if (!user) {
-        console.log(`User not found: ${senderId}`);
-        return res.status(404).json({ error: 'Sender not found' });
+      // If it's from Tibeb AI, override senderId with the fixed ID
+      if (isFromAI === true || isFromAI === 'true') {
+        senderId = TIBEB_ID;
       }
   
-      const newMessage = new Message({
-        communityId: parseInt(communityId, 10),
-        senderId,
-        content,
-      });
+      // Validate senderId unless it's Tibeb
+   
+        const user = await User.findById(senderId);
+        if (!user) {
+          console.log(`User not found: ${senderId}`);
+          return res.status(404).json({ error: 'Sender not found' });
+        }
+      
+        const newMessage = new Message({
+          communityId: parseInt(communityId, 10),
+          senderId,
+          content,
+          isFromAI: req.body.isFromAI || false
+        });
+        
   
       await newMessage.save();
   
@@ -59,4 +68,5 @@ exports.getMessagesByCommunityId = async (req, res) => {
       res.status(500).json({ error: 'Server error while creating message' });
     }
   };
+  
   
